@@ -40,7 +40,7 @@ class LoadZipper:
         self.progressbar.place(x=200, y=230)
 
     def load_data(self):
-        time.sleep(10)
+        time.sleep(5)
         self.loaded = True
         self.hide_loading()
         UnZipper(self.root)
